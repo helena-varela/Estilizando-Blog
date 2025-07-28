@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz literário</title>
+</head>
+
+<body>
+    <a href="home.html">Voltar para Home</a>
+    <main>
+        <!--Pergunta 01: Múltipla Escolha-->
+        <section>
+            <h2>Pergunta 01: Qual o livro mais vendido do mundo?</h2>
+            <form>
+                <input type="radio" value="Crônicas de Nárnia" id="p1a" name="pergunta1">
+                <label for="p1a">Crônicas de Nárnia</label>
+                <br>
+                <input type="radio" value="Harry Potter" id="p1b" name="pergunta1">
+                <label for="p1b">Harry Potter</label>
+                <br>
+                <input type="radio" value="Bíblia Sagrada" id="p1c" name="pergunta1">
+                <label for="p1c">Bíblia Sagrada</label>
+                <br>
+                <input type="radio" value="O Senhor dos Anéis" id="p1d" name="pergunta1">
+                <label for="p1d">O Senhor dos Anéis</label>
+            </form>
+        </section>
+
+        <!--Pergunta 02: Texto-->
+        <section>
+            <h2>Pergunta 02: Em termos de tamanho, qual o maior livro?</h2>
+            <form>
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta">
+            </form>
+        </section>
+
+        <!--Pergunta 03: Data-->
+        <section>
+            <h2>Pergunta 03: Em que ano "Harry Potter" foi lançado?</h2>
+            <form>
+                <input type="date" id="p3" name="pergunta3">
+            </form>
+        </section>
+
+        <!--Pergunta 04: Seleção Múltipla-->
+        <section>
+            <h2>Pergunta 04: Marque quais desses livros são brasileiros</h2>
+            <form>
+                <input type="checkbox" id="p4a" name="pergunta4" value=" A Igreja do Diabo">
+                <label for="p4a">A Igreja do Diabo</label>
+                <br>
+                <input type="checkbox" id="p4b" name="pergunta4" value="A Hora da Estrela">
+                <label for="p4b">A Hora da Estrela</label>
+                <br>
+                <input type="checkbox" id="p4c" name="pergunta4" value="O Velho e o Mar">
+                <label for="p4c">O Velho e o Mar</label>
+                <br>
+                <input type="checkbox" id="p4d" name="pergunta4" value="A Rosa do Povo">
+                <label for="p4d">A Rosa do Povo</label>
+            </form>
+        </section>
+
+        <!--Pergunta 05: Múltipla Escolha -->
+        <section>
+            <h2>Pergunta 05: Quais destes livros <em>NÃO</em> é um livro da Jane Austen?</h2>
+            <form>
+                <input type="radio" id="p5a" name="pergunta5" value="Orgulho e Preconceito">
+                <label for="p5a">Orgulho e Preconceito</label>
+                <br>
+                <input type="radio" id="p5b" name="pergunta5" value="Persuasão">
+                <label for="p5b">Persuasão</label>
+                <br>
+                <input type="radio" id="p5c" name="pergunta5" value="Emma">
+                <label for="p5c">Emma</label>
+                <br>
+                <input type="radio" id="p5d" name="pergunta5" value="A Cabana">
+                <label for="p5d">A Cabana</label>
+            </form>
+        </section>
+
+        <!--Pergunta 06: upload de arquivo-->
+        <section>
+            <h2>Pergunta 06: Encontre e corrija os erros da famosa dedicação abaixo:</h2>
+
+            <p>"Ao verme que primeiro roeu as frias carne do meu cadaver dedico como saudosa lembraça estas memorias
+                postumas."</p>
+
+            <form>
+                <input type="file" id="p6" name="pergunta6">
+            </form>
+        </section>
+
+        <!--Pergunta 07: menu suspenso (dropdown)-->
+        <section>
+            <h2>Pergunta 07: Selecione o personagem intruso</h2>
+            <form>
+                <select name="pergunta7" id="p7">
+                    <option value="gregorio">Gregório</option>
+                    <option value="quincas">Quincas Borba</option>
+                    <option value="josef">Josef K</option>
+                    <option value="grete">Grete</option>
+                </select>
+            </form>
+        </section>
+
+        <!--Pergunta 08: Imagem-->
+        <section>
+            <h2>Pergunta 08: Qual livro se refere a imagem abaixo</h2>
+            <figure>
+                <img src="./assets/bug.jpeg" alt="Ilustração de algum livro">
+                <legend>Ilustração de algum livro</legend>
+            </figure>
+            <form>
+                <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta">
+            </form>
+        </section>
+
+        <!--Verificar as respostas-->
+        <section>
+            <h2>Verifique as suas respostas</h2>
+            <details>
+                <summary>Clique para ver as respostas</summary>
+                <ol>
+                    <li>Bíblia Sagrada</li>
+                    <li>Em Busca do Tempo Perdido</li>
+                    <li>26 de Junho de 1997</li>
+                    <li>Todos menos "O Velho e o Mar"</li>
+                    <li>A Cabana</li>
+                    <li>"Ao verme que primeiro roeu as frias carnes do meu cadáver dedico como saudosa lembraça estas
+                        memórias
+                        póstumas."</li>
+                    <li>Quincas Borba</li>
+                    <li>A Metamorfose</li>
+                </ol>
+            </details>
+        </section>
+
+        <!--Tabela de Pontuação-->
+        <section>
+            <h2>Tabela de Pontuação</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Pontuação</th>
+                        <th>Avaliação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Vá até a biblioteca mais próxima urgentemente</td>
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Você precisa ler mais</td>
+                    </tr>
+                    <tr>
+                        <td>5-7</td>
+                        <td>Mandou bem, continue assim!</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Você é a reencarnação do Machado de Assis :0</td>
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Boa sorte na próxima</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!--Nos dê o seu feedback-->
+        <section>
+            <h2>Nos dê o seu Feedback!</h2>
+            <form>
+                <fieldset>
+                    <legend>Informações de Feedback</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+                    <br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite o seu E-mail">
+                    <br>
+                    <label for="comentarios">Comentários:</label>
+                    <br>
+                    <textarea name="comentarios" id="comentarios" rows="5" cols="50"
+                        placeholder="Digite seu comentário"></textarea>
+            </form>
+            <br>
+            <button>Enviar</button>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Quiz Literário. Todos os direitos reservardos.</p>
+        <p>Para conhecer mais sobre mim<a href="sobremim.html"> clique aqui</a></p>
+    </footer>
+</body>
+
+</html>
