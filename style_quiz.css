@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9FAFB;
+    color: #005299;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header { 
+    padding: 2rem;
+    background-color: #005299;
+    color: #F9FAFB;
+    text-align: center;
+}
+
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+section label, section p {
+    color: #333333;
+}
+
+h2 {
+    color: #005299;
+    font-weight: 700;
+}
+
+input[type="radio"], input[type=checkbox] {
+    accent-color: #005299;
+}
+
+
+input[type="text"], input[type="date"], input[type="name"], input[type="email"] {
+    width: 50%;
+    padding: 0.6rem;
+    border: 2px solid #005299;
+    outline: none;
+    border-radius: 10px;
+}
+
+select{
+    width: 25%;
+    padding: 0.6rem;
+    border: 2px solid #005299;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color:#333333
+}
+
+img {
+    width: 15rem;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #333333;
+}
+
+th{
+    background-color: #E9ECEF;
+    padding: 0.5rem;
+}
+
+td{
+    padding: 0.5rem;
+    text-align: center;
+}
+
+tfoot td{
+    background-color: #E9ECEF;
+}
+
+details {
+    border-radius: 5px;
+    padding: 1.5rem;
+    background-color: #005299;
+    color: #F9FAFB
+}
+
+summary{
+    cursor: pointer;
+}
+
+ol{
+    margin-left: 1.5rem;
+}
+
+ol li{
+   padding: 0.5rem;
+}
+
+fieldset{
+    border: 2px solid #005299;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: #333333;
+    padding: 0 0.5rem;
+}
+
+textarea{
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #005299;
+}
+
+textarea::placeholder{
+    color:#333333;
+    font-family: "Cabin", sans-serif;;
+}
+
+button{
+    background-color: #005299;
+    color:#E9ECEF;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #005299;
+    padding: 2rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #7e7272;
+}
+
+.paragrafo-footer{
+    color: #E9ECEF;
+}
