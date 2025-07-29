@@ -4,12 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz literário</title>
+    <title>Quiz Literário</title>
+    <link rel="stylesheet" href="style_quiz.css">
 </head>
 
 <body>
-    <a href="home.html">Voltar para Home</a>
+    <header>
+        <h1>Quiz Literário</h1>
+        <p>Teste seus conhecimentos sobre literatura e veja quantos pontos você consegue fazer!</p>
+    </header>
+
     <main>
+        <!--Intrdoução-->
+        <section>
+            <h2>Sobre esse quiz</h2>
+            <p>Este quiz irá testar seus conhecimentos sobre livro, desde literatura brasileira até internacional.</p>
+            <p>Você encontrará diferentes tipos de perguntas como múltipla escolha, texto, upload de files e mais.
+                Divirta-se! :D</p>
+        </section>
         <!--Pergunta 01: Múltipla Escolha-->
         <section>
             <h2>Pergunta 01: Qual o livro mais vendido do mundo?</h2>
@@ -38,7 +50,7 @@
 
         <!--Pergunta 03: Data-->
         <section>
-            <h2>Pergunta 03: Em que ano "Harry Potter" foi lançado?</h2>
+            <h2>Pergunta 03: Em que data "Harry Potter" foi lançado?</h2>
             <form>
                 <input type="date" id="p3" name="pergunta3">
             </form>
@@ -169,7 +181,7 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td colspan="2">Boa sorte na próxima</td>
+                        <td colspan="2">Boa sorte na próxima!</td>
                     </tr>
                 </tfoot>
             </table>
@@ -177,14 +189,16 @@
 
         <!--Nos dê o seu feedback-->
         <section>
-            <h2>Nos dê o seu Feedback!</h2>
+            <h2>Queremos ouvir o seu Feedback!</h2>
             <form>
                 <fieldset>
                     <legend>Informações de Feedback</legend>
                     <label for="nome">Nome:</label>
+                    <br>
                     <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
                     <br>
                     <label for="email">E-mail:</label>
+                    <br>
                     <input type="email" name="email" id="email" placeholder="Digite o seu E-mail">
                     <br>
                     <label for="comentarios">Comentários:</label>
@@ -198,8 +212,9 @@
         </section>
     </main>
     <footer>
-        <p>&copy; Quiz Literário. Todos os direitos reservardos.</p>
-        <p>Para conhecer mais sobre mim<a href="sobremim.html"> clique aqui</a></p>
+        <p class="paragrafo-footer">&copy; Quiz Literário. Todos os direitos reservardos.</p>
+        <p class="paragrafo-footer">Para conhecer mais sobre mim<a href="sobremim.html"> clique aqui</a></p>
+        <a class="paragrafo-footer" href="home.html">Voltar para Home</a>
     </footer>
 </body>
 
