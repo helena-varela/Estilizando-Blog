@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Cabin", sans-serif;;
+}
+
+li{
+    display: inline;
+    padding-inline-end: 20px;
+}
+
+nav{
+    font-weight: 700;
+    font-size: x-large;
+    background-color: #005299;
+    color: #F9FAFB;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    
+}
+
+nav a{
+    color: #F9FAFB;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #E5E7EB
+}
+
+main{
+    text-align: center;
+    color: #333333;
+}
+
+h1{
+    font-size: 40px;
+    color: #ff7402e0;
+    padding: 2rem;
+}
+
+.texto{
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 3rem;
+}
+
+footer{
+    background-color: #005299;
+    color: #F9FAFB;
+    padding: 2.5rem;
+    text-align: center;
+    font-size: 23px;
+}
