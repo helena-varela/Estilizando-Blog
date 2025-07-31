@@ -37,7 +37,7 @@ main{
 
 h1{
     font-size: 40px;
-    color: #ff7402e0;
+    color: #005299;
     padding: 2rem;
 }
 
@@ -50,7 +50,7 @@ h1{
 footer{
     background-color: #005299;
     color: #F9FAFB;
-    padding: 2.5rem;
+    padding: 2rem;
     text-align: center;
     font-size: 23px;
 }

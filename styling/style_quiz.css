@@ -155,7 +155,11 @@ footer{
 
 footer a{
     text-decoration: none;
-    color: #7e7272;
+    color: #E5E7EB;
+}
+
+a:hover{
+    color: #333333;
 }
 
 .paragrafo-footer{

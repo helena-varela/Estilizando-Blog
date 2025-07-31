@@ -17,6 +17,7 @@ header {
 
 h2 {
     color: #005299;
+    margin-bottom: 2rem;
 }
 
 body {
@@ -79,12 +80,17 @@ footer {
     text-align: center;
     font-size: 1rem;
     margin-top: 2rem;
+    font-size: 20px;
 }
 
 footer a {
     text-decoration: none;
     color: #E9ECEF;
     margin: 0 0.5rem;
+}
+
+a:hover{
+    color: #333333;
 }
 
 .paragrafo-footer {
